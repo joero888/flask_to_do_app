@@ -1,33 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- Link to external stylesheets, if any -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Include any external fonts, if needed -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Main content of your page goes here -->
-    <header>
-        <h1>Hello World 2</h1>
-    </header>
+{% extends 'base.html' %}
 
-    <main>
-        <section>
-            <h2>Section Title</h2>
-            <p>Some introductory text goes here.</p>
-        </section>
-    </main>
+{% block head %}
 
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+{% endblock %}
 
-    <!-- Link to external JavaScript, if any -->
-    <script src="scripts.js"></script>
-</body>
-</html>
+{% block body %}
+<h1>Template2</h1> 
+{% endblock %}
